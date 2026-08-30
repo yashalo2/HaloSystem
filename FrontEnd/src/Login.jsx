@@ -24,7 +24,12 @@ function Login() {
               {" "}
               don't have account ? <a href="register">Register</a>
             </label>
-            <button style={{ background: "#8e2de2" }}>Login</button>
+            <button
+              style={{ background: "#8e2de2" }}
+              onClick={() => navigate("/customer/home")}
+            >
+              Login
+            </button>
           </div>
         </form>
       </div>

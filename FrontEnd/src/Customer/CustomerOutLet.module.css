@@ -8,8 +8,22 @@
 .container .top {
   width: calc(100% - 1em);
   height: 80px;
-  background: blue;
+  background: linear-gradient(180deg, #2c1578 0%, #361b8d 50%, #4827a3 100%);
+
   padding: 0.5em;
+  display: flex;
+  gap: 10px;
+}
+.container .top div {
+  flex: 1;
+}
+.container .top .logoCon .logo {
+  width: 80px;
+  height: 80px;
+  background-image: url("../assets/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .container .left {
   width: 200px;
@@ -40,7 +54,6 @@
   top: calc(80px + 1em);
   width: calc(100% - 203px);
   height: calc(100% - 80px - 1em);
-  background: cyan;
 }
 .container .mobileNav {
   display: none;
@@ -54,6 +67,7 @@
     left: 0px;
     height: calc(100% - 143px - 1em);
   }
+
   .container .mobileNav {
     display: block;
     position: absolute;

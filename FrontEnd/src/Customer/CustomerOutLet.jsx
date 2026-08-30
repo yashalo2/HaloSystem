@@ -6,7 +6,12 @@ function CustomerLayout() {
   const navigate = useNavigate();
   return (
     <div className={style.container}>
-      <div className={style.top}></div>
+      <div className={style.top}>
+        <div className={style.logoCon}>
+          <div className={style.logo}></div>
+        </div>
+        <div className={style.user}></div>
+      </div>
       <div className={style.left}>
         <div className={style.buttons}>
           <button onClick={() => navigate("home")}>
