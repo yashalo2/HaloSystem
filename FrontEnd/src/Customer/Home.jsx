@@ -27,35 +27,100 @@ function Home() {
         </div>
         <div className={style.category}>
           <div>
-            <MdCake size={25} />
+            <MdCake
+              size={25}
+              color="#F8BBD0"
+              style={{
+                background: "#FFF8F0",
+                padding: "0.5em 1em",
+                borderRadius: "5px",
+              }}
+            />
             <p>Bakery</p>
           </div>
           <div>
-            <MdBook size={25} />
+            <MdBook
+              size={25}
+              color="#2563EB"
+              style={{
+                background: "#2564eb33",
+                padding: "0.5em 1em",
+                borderRadius: "5px",
+              }}
+            />
             <p>Books</p>
           </div>
           <div>
-            <MdLocalPharmacy size={25} />
+            <MdLocalPharmacy
+              size={25}
+              color="#16A34A"
+              style={{
+                background: "#16a34a36",
+                padding: "0.5em 1em",
+                borderRadius: "5px",
+              }}
+            />
             <p>Pharmacy</p>
           </div>
           <div>
-            <FiShoppingBag size={25} />
+            <FiShoppingBag
+              size={25}
+              color="#F8BBD0"
+              style={{
+                background: "#FFF8F0",
+                padding: "0.5em 1em",
+                borderRadius: "5px",
+              }}
+            />
             <p>Shop</p>
           </div>
+
           <div>
-            <MdHouse size={25} />
-            <p>House</p>
-          </div>
-          <div>
-            <MdHotel size={25} />
+            <MdHotel
+              size={25}
+              color="#1E3A8A"
+              style={{
+                background: "#1e3b8a2a",
+                padding: "0.5em 1em",
+                borderRadius: "5px",
+              }}
+            />
             <p>Hotel</p>
           </div>
           <div>
-            <MdRestaurant size={25} />
+            <MdHouse
+              size={25}
+              color="#0F766E"
+              style={{
+                background: "#0f766d23",
+                padding: "0.5em 1em",
+                borderRadius: "5px",
+              }}
+            />
+            <p>House</p>
+          </div>
+          <div>
+            <MdRestaurant
+              size={25}
+              color="#DC2626"
+              style={{
+                background: "#dc262634",
+                padding: "0.5em 1em",
+                borderRadius: "5px",
+              }}
+            />
             <p>Restaurant</p>
           </div>
           <div>
-            <MdMovie size={25} />
+            <MdMovie
+              size={25}
+              color="#F8BBD0"
+              style={{
+                background: "#FFF8F0",
+                padding: "0.5em 1em",
+                borderRadius: "5px",
+              }}
+            />
             <p>Movies</p>
           </div>
         </div>

@@ -16,6 +16,7 @@
 }
 .container .top div {
   flex: 1;
+  color: #fff;
 }
 .container .top .logoCon .logo {
   width: 80px;

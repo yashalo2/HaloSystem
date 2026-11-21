@@ -10,7 +10,9 @@ function CustomerLayout() {
         <div className={style.logoCon}>
           <div className={style.logo}></div>
         </div>
-        <div className={style.user}></div>
+        <div className={style.user}>
+          <strong>Locora</strong>
+        </div>
       </div>
       <div className={style.left}>
         <div className={style.buttons}>
@@ -35,11 +37,11 @@ function CustomerLayout() {
         <Outlet />
       </main>
       <div className={style.mobileNav}>
-        <div style={{ color: "#8e2de2" }}>
+        <div onClick={() => navigate("home")} style={{ color: "#8e2de2" }}>
           <MdHome size={25} />
           <p style={{ marginBottom: "-5px" }}>Home</p>
         </div>
-        <div>
+        <div onClick={() => navigate("orders")}>
           <FiPackage size={25} />
           <p style={{ marginBottom: "-5px" }}>Orders</p>
         </div>

@@ -2,6 +2,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
+  background: #ededed;
 }
 .container .productsContainer {
   width: 60%;
@@ -37,7 +38,6 @@
   gap: 10px;
   overflow-y: auto;
   padding: 0.5em;
-  background: #fff;
   margin-bottom: 0px;
   box-shadow: 0px 0px 5px #80808033;
 }
@@ -45,14 +45,21 @@
   height: 80px;
   align-content: center;
   text-align: center;
-  padding: 0.5em;
-  box-shadow: 0px 0px 2px #ededed;
+  padding: 0.5em 1em;
+  background: #fff;
+  position: relative;
+  border-radius: 10px;
+}
+.container .productsContainer .category div p {
+  position: absolute;
+  bottom: -13px;
+  font-size: large;
+  color: grey;
 }
 .container .productsContainer .products {
   width: 100%;
   height: calc(100% - 30% - 60px);
-  background: #fff;
-  box-shadow: 0px 0px 2px #80808049;
+  box-shadow: 0px 0px 2px #ededed;
   padding-top: 0.5em;
 }
 .container .productsContainer .products .nav {
@@ -82,6 +89,7 @@
   background: #fff;
   border-radius: 10px;
   box-shadow: 0px 0px 2px rgba(128, 128, 128, 0.295);
+  padding: 0.5em;
 }
 .container .productsContainer .products .productCon .product .productImage {
   width: 100%;
@@ -198,6 +206,9 @@
   color: #8e2de2;
   background: #fff;
 }
+.container .category {
+  background: transparent;
+}
 @media (max-width: 700px) {
   .container .productsContainer {
     width: 100%;
@@ -213,8 +224,13 @@
   }
   .container .productsContainer .category div {
     height: 50px;
+    box-shadow: 0px 0px 1px #8e2de2;
+    border-radius: 10px;
   }
   .container .productsContainer .category div p {
-    font-size: smaller;
+    position: absolute;
+    bottom: -13px;
+    font-size: xx-small;
+    color: grey;
   }
 }
